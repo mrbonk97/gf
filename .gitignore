@@ -1,0 +1,75 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+spring-nextjs-oauth2-jwt-client/node_modules
+spring-nextjs-oauth2-jwt-client/.pnp
+spring-nextjs-oauth2-jwt-client/.pnp.js
+spring-nextjs-oauth2-jwt-client/.yarn/install-state.gz
+
+# testing
+spring-nextjs-oauth2-jwt-client/coverage
+
+# next.js
+spring-nextjs-oauth2-jwt-client/.next/
+spring-nextjs-oauth2-jwt-client/out/
+
+# production
+spring-nextjs-oauth2-jwt-client/build
+
+# misc
+spring-nextjs-oauth2-jwt-client/.DS_Store
+spring-nextjs-oauth2-jwt-client/*.pem
+
+# debug
+spring-nextjs-oauth2-jwt-client/npm-debug.log*
+spring-nextjs-oauth2-jwt-client/yarn-debug.log*
+spring-nextjs-oauth2-jwt-client/yarn-error.log*
+
+# local env files
+spring-nextjs-oauth2-jwt-client/.env*.local
+
+# vercel
+spring-nextjs-oauth2-jwt-client/.vercel
+
+# typescript
+spring-nextjs-oauth2-jwt-client/*.tsbuildinfo
+spring-nextjs-oauth2-jwt-client/next-env.d.ts
+
+
+spring-nextjs-oauth2-jwt-server/HELP.md
+spring-nextjs-oauth2-jwt-server/.gradle
+spring-nextjs-oauth2-jwt-server/build/
+spring-nextjs-oauth2-jwt-server/!gradle/wrapper/gradle-wrapper.jar
+spring-nextjs-oauth2-jwt-server/!**/src/main/**/build/
+spring-nextjs-oauth2-jwt-server/!**/src/test/**/build/
+
+### STS ###
+spring-nextjs-oauth2-jwt-server/.apt_generated
+spring-nextjs-oauth2-jwt-server/.classpath
+spring-nextjs-oauth2-jwt-server/.factorypath
+spring-nextjs-oauth2-jwt-server/.project
+spring-nextjs-oauth2-jwt-server/.settings
+spring-nextjs-oauth2-jwt-server/.springBeans
+spring-nextjs-oauth2-jwt-server/.sts4-cache
+spring-nextjs-oauth2-jwt-server/bin/
+spring-nextjs-oauth2-jwt-server/!**/src/main/**/bin/
+spring-nextjs-oauth2-jwt-server/!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+spring-nextjs-oauth2-jwt-server/.idea
+spring-nextjs-oauth2-jwt-server/*.iws
+spring-nextjs-oauth2-jwt-server/*.iml
+spring-nextjs-oauth2-jwt-server/*.ipr
+spring-nextjs-oauth2-jwt-server/out/
+spring-nextjs-oauth2-jwt-server/!**/src/main/**/out/
+spring-nextjs-oauth2-jwt-server/!**/src/test/**/out/
+
+### NetBeans ###
+spring-nextjs-oauth2-jwt-server/nbproject/private/
+spring-nextjs-oauth2-jwt-server/nbbuild/
+spring-nextjs-oauth2-jwt-server/dist/
+spring-nextjs-oauth2-jwt-server/nbdist/
+spring-nextjs-oauth2-jwt-server/.nb-gradle/
+
+### VS Code ###
+spring-nextjs-oauth2-jwt-server/.vscode/
